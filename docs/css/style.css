@@ -89,10 +89,31 @@ li {
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: inherit;
+    vertical-align: top;
+}
+
+.louize--medium {
+    font-size: 60px;
+    line-height: 60px;
+    font-family: Louise Display;
+    font-weight: 400;
+}
+
+.mb4 {
+    margin-bottom: 40px;
 }
 
 .col.c6{
     width: 50%;
+}
+
+.full-width {
+    display: block;
+    width: 100%;
+}
+
+.mt10 {
+    margin-top: 100px;
 }
 
 .copyright {
