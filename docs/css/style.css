@@ -32,7 +32,6 @@ a {
     justify-content: space-between;
     background: rgba(52, 27, 43, 0.5);
     position: relative;
-    margin-bottom: 50px;
 }
 
 /*.header > a {*/
@@ -65,6 +64,11 @@ li {
 .top a:hover {
     background: #800000;
     color: #fff;
+}
+
+.banner {
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .gr--3-4 {
@@ -143,8 +147,9 @@ li {
 .copyright {
     height: 100px;
     width: 100%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    text-align: center;
+    text-align: right;
+    right: 260px;
 }
 
