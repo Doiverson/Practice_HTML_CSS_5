@@ -113,7 +113,27 @@ li {
 }
 
 .mt10 {
-    margin-top: 100px;
+    margin-top: 150px;
+}
+
+.mb6 {
+    margin-bottom: 60px;
+}
+
+.mb2 {
+    margin-bottom: 20px;
+}
+
+.o50 {
+    margin: 0;
+    opacity: .5;
+}
+
+.pressura--small {
+    font-family: GT Pressura Mono;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
 }
 
 .copyright {
