@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/pon8ywh.css");
+
 
 html {
     font-family:'Rubik' ,Helvetica ,sans-serif;
@@ -6,12 +8,25 @@ html {
 
 * {
     box-sizing: border-box;
+    cursor: none;
 }
 
 body {
     /*background-color: darkseagreen;*/
     height: 100%;
 }
+
+.cursor{
+    opacity: 0.5;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-100%);
+}
+
+.cursor:nth-child(1){ background-color: #16A085; z-index: 1;}
+.cursor:nth-child(2){ background-color: #7FFF00	; }
 
 a {
     text-decoration: none;
@@ -161,3 +176,4 @@ li {
     right: 260px;
 }
 
+/*cursor js*/
