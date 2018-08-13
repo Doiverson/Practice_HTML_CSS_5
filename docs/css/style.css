@@ -25,8 +25,8 @@ body {
     transform: translateX(-50%) translateY(-100%);
 }
 
-.cursor:nth-child(1){ background-color: #16A085; z-index: 1;}
-.cursor:nth-child(2){ background-color: #7FFF00	; }
+.cursor:nth-child(1){ background-color: #16A085; z-index: 5;}
+.cursor:nth-child(2){ background-color: #7FFF00	; z-index: 4; }
 
 a {
     text-decoration: none;
@@ -54,7 +54,7 @@ a {
 /*}*/
 
 .logo {
-    height: auto;
+    height: auto; /*avoid collapsing the aspect ration of image*/
     width: 80px;
     top: 2px;
     left: 20px;
