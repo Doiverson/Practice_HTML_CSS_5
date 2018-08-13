@@ -136,6 +136,10 @@ li {
     font-weight: 400;
 }
 
+.rich-content p {
+    margin-bottom: 0;
+}
+
 .copyright {
     height: 100px;
     width: 100%;
