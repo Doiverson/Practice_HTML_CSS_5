@@ -167,7 +167,7 @@ li {
     margin-bottom: 0;
 }
 
-.copyright {
+.copyright-right {
     height: 100px;
     width: 100%;
     position: absolute;
@@ -175,5 +175,15 @@ li {
     text-align: right;
     right: 260px;
 }
+
+.copyright-left {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    left: 260px;
+}
+
 
 /*cursor js*/
