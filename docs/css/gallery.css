@@ -28,17 +28,6 @@ body {
     line-height: 2em;
 }
 
-.logo {
-    height: 60px;
-    width: 110px;
-    background-image: url("../img/ET.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: inline-block;
-    position: relative;
-    top: 1em;
-}
-
 .page-title h1 {
     display: inline-block;
 }
