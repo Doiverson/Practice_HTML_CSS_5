@@ -1,0 +1,100 @@
+
+html,
+body {
+    max-width: 1200px;
+    margin: auto;
+    font-family: "Space Mono", sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: GhostWhite;
+}
+
+body {
+    background-image: url("../img/Starry_sky_.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Title and Description */
+
+.page-title {
+    text-align: center;
+    margin: auto;
+    line-height: 2em;
+}
+
+.logo {
+    height: 60px;
+    width: 110px;
+    background-image: url("../img/ET.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 1em;
+}
+
+.page-title h1 {
+    display: inline-block;
+}
+
+.main {
+    text-align: center;
+}
+
+
+
+/* Gallery */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    margin: 20px;
+}
+
+.gallery-item .thumbnail {
+    width: 240px;
+    border: 2px solid GhostWhite;
+    border-radius: 4px;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .page-title {
+        width: 270px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) ,(orientation: portrait){
+    .gallery-item .thumbnail {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-resolution:150dpi) and (max-width:480px) {
+    .page-description{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation: landscape){
+    .page-title, .page-description{
+        float: left;
+        width: 20em;
+    }
+
+    .page-description{
+        text-align:left;
+    }
+}
