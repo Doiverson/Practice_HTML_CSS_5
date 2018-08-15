@@ -184,53 +184,5 @@ li {
     position: absolute;
     bottom: 0;
     text-align: left;
-    left: 260px;
-}
-
-
-/*Gallery*/
-
-
-.clearfix {
-    clear: both;
-}
-
-/* Title and Description */
-
-.page-title {
-    text-align: center;
-    margin: auto;
-    line-height: 2em;
-}
-
-.logo {
-    height: 60px;
-    width: 110px;
-    background-image: url("../img/ET.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: inline-block;
-    position: relative;
-    top: 1em;
-}
-
-.page-title h1 {
-    display: inline-block;
-}
-
-.main {
-    text-align: center;
-}
-
-.page-description {
-    font-size: 0.8rem;
-    padding: 30px;
-}
-
-.learn-more {
-    color: DarkOrange;
-    text-decoration: none;
-    display: block;
-    margin: 25px 0 0 0;
-    font-weight: bold;
+    padding-left: 180px;
 }
