@@ -32,7 +32,6 @@ body {
 
 a {
     text-decoration: none;
-
 }
 
 .container {
@@ -40,6 +39,8 @@ a {
     position: relative;
     min-height: 100%;
 }
+
+/* header */
 
 .header {
     padding: 2em 2em;
@@ -50,10 +51,6 @@ a {
     background: rgba(0,71,82, 0.5);
     position: relative;
 }
-
-/*.header > a {*/
-    /*display: inline-block;*/
-/*}*/
 
 .logo {
     height: auto; /*avoid collapsing the aspect ration of image*/
@@ -83,11 +80,14 @@ li {
     color: #fff;
 }
 
+
+
 .banner {
     padding-right: 40px;
     padding-left: 40px;
 }
 
+/*line*/
 .gr--2:before {
     content: '';
     display: block;
@@ -169,13 +169,15 @@ li {
     margin-bottom: 0;
 }
 
+/* copyright */
+
 .copyright-right {
     height: 100px;
     width: 100%;
     position: absolute;
     bottom: 0;
     text-align: right;
-    right: 260px;
+    padding-right: 180px;
 }
 
 .copyright-left {
