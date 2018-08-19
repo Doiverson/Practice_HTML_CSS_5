@@ -1,6 +1,8 @@
 
 
 html {
+    max-width: 1440px;
+    margin: 0 auto;
     font-family:'Rubik' ,Helvetica ,sans-serif;
     height: 100%;
 }
@@ -186,6 +188,3 @@ li {
     text-align: left;
     padding-left: 230px;
 }
-
-
-a
