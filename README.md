@@ -2,5 +2,5 @@
 
 https://doiverson.github.io/Practice_HTML_CSS_5/
 ***
-![ScreenShot](./capture-image.png)
+![ScreenShot](docs/capture-image.png)
 ***
